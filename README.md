@@ -1,4 +1,4 @@
-# Chat Interface Project
+# Chatbot with Custom API Integration
 
 This project is a simple chat interface in JavaScript that connects to a backend API to send user messages and receive AI-generated responses.
 
