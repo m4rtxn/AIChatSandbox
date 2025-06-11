@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot API Demo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Chatbot API Integration</h1>
+        </div>
+        <div class="chat-messages" id="chat-messages">
+            <!-- Messages will be inserted here -->
+        </div>
+        <div class="chat-input-container">
+            <textarea 
+                id="user-input" 
+                placeholder="Type your message here..."
+                rows="1"
+                autofocus
+            ></textarea>
+            <button id="send-button">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
